@@ -17,29 +17,29 @@ Visualize key events or timelines to support findings
 The analysis is based on four key tables:
 #### 1. Access Logs Table
 Tracks movement within the estate.
-log_id
-suspect_id
-access_time
-door_accessed
-success_flag
+log_id,
+suspect_id,
+access_time,
+door_accessed,
+success_flag.
 #### 2. Call Records Table
 Captures phone activity of suspects.
-call_id
-suspect_id
-call_time
-call_duration
-recipient_relation
+call_id,
+suspect_id,
+call_time,
+call_duration,
+recipient_relation.
 #### 3. Forensic Events Table
 Contains key forensic timestamps and observations.
-event_time
-event_description
+event_time,
+event_description.
 #### 4. Suspects Table
 Provides background information on all individuals present.
-suspect_id
-name
-role
-relation_to_victim
-alibi
+suspect_id,
+name,
+role,
+relation_to_victim,
+alibi.
 
 ## 🧠 Methodology
 The investigation began by combining multiple datasets to create a comprehensive view of each suspect’s activities.
@@ -83,11 +83,11 @@ Narrowed down the list of suspects to five individuals with notable anomalies
 Further deep-dive analysis into these five suspects revealed critical insights into their actions before and after the murder.
 
 ## 🛠️ Tools & Skills Demonstrated
-SQL (Joins, Filtering, Aggregations, Data Cleaning)
-Data Analysis & Investigation
-Critical Thinking & Problem Solving
-Relational Database Exploration
-Storytelling with Data
+SQL (Joins, Filtering, Aggregations, Data Cleaning),
+Data Analysis & Investigation,
+Critical Thinking & Problem Solving,
+Relational Database Exploration,
+Storytelling with Data.
 
 ## 🚨 Final Suspect Reveal
 Following a comprehensive analysis of access logs, call records, and forensic timelines, the investigation identified a small group of individuals whose activities significantly deviated from their stated alibis. While multiple suspects exhibited suspicious behavior, the evidence ultimately converges on a clear primary suspect.
